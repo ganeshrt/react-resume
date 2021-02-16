@@ -81,7 +81,7 @@ export default function Header(props) {
           </center>
           <h1 className="responsive-headline">{name} </h1>
           <h3>
-            I'm a {location} based <span>{occupation}</span>. {description}.
+            I'm an <span>{occupation}</span>. {description}.
           </h3>
           <hr />
           <ul className="social">
