@@ -63,7 +63,7 @@ export const resumeData = {
         title: 'Associate Software Engineer ',
         years: 'April 2019 - Present',
         description:
-          '//Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.',
+          ' I am working as Full stack developer (MERN), //Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know.',
       },
     ],
     skills: [
@@ -96,42 +96,78 @@ export const resumeData = {
         level: '80%',
       },
     ],
-  },
-  portfolio: {
     projects: [
       {
-        title: 'TVStack ( Dentsu Aeiges Network)',
+        name: 'TVStack ( Dentsu Aeiges Network)',
         category: 'Advertisement',
-        image: 'canadian-wanderlust.jpg',
+        image: '',
         organization: 'Successive Technologies',
-        framwork: 'ReactJs, ExpresJs, Apollo GraphQL',
+        framework:
+          'ReactJs, ExpresJs, Apollo GraphQL,Jest (enzyme,react-testing-library )',
+        duration: ' 1 year',
         url: 'https://www.canadianwanderlust.com',
-        Description:
+        description:
           'TV Stack is an application that helps advert planners with their ad campaigns. It helps them choose their demographics, channels and gives an optimal distribution of their budget among these channels.  ',
       },
       {
-        title: 'HR Management',
+        name: 'HR Management',
         category: 'A React.js and Nest.js based web application',
-
+        duration: '2 months',
         organization: 'Successive Technologies',
-        framwork: 'ReactJs, NestJs, Apollo GraphQL',
-        Description:
+        framework: 'ReactJs, NestJs, Apollo GraphQL',
+        description:
           "HR Management is an application where HR handle their Hiring process easy & smoothly and other respected process's ",
-        image: 'fury-fighting-gear.jpg',
+        image: '',
         url: 'http://www.timbakerdev.com',
       },
       {
-        title: 'Cruise and Passengers Management system',
+        name: 'Cruise and Passengers Management system',
         category: 'Website I built for a cruise and passengers Service',
-
+        duration: '3 months',
         organization: 'Final year project,N.K.Orchid college',
-        Description:
+        framework: 'Bootstrap,CSS,HTML5,Nodejs,docker',
+        description:
           'Website displays the information regarding the Cruise, Deals and Offers and Dining Services provided by the Cruise',
-        image: 'original-thai-food.jpg',
+        image: '',
         url: 'http://www.timbakerdev.com/originalthaifood.github.io',
       },
     ],
   },
+  //   portfolio: {
+  //     projects: [
+  //       {
+  //         title: 'TVStack ( Dentsu Aeiges Network)',
+  //         category: 'Advertisement',
+  //         image: '',
+  //         organization: 'Successive Technologies',
+  //         framwork: 'ReactJs, ExpresJs, Apollo GraphQL',
+  //         url: 'https://www.canadianwanderlust.com',
+  //         Description:
+  //           'TV Stack is an application that helps advert planners with their ad campaigns. It helps them choose their demographics, channels and gives an optimal distribution of their budget among these channels.  ',
+  //       },
+  //       {
+  //         title: 'HR Management',
+  //         category: 'A React.js and Nest.js based web application',
+  //
+  //         organization: 'Successive Technologies',
+  //         framwork: 'ReactJs, NestJs, Apollo GraphQL',
+  //         Description:
+  //           "HR Management is an application where HR handle their Hiring process easy & smoothly and other respected process's ",
+  //         image: '',
+  //         url: 'http://www.timbakerdev.com',
+  //       },
+  //       {
+  //         title: 'Cruise and Passengers Management system',
+  //         category: 'Website I built for a cruise and passengers Service',
+  //
+  //         organization: 'Final year project,N.K.Orchid college',
+  //         Description:
+  //           'Website displays the information regarding the Cruise, Deals and Offers and Dining Services provided by the Cruise',
+  //         image: '',
+  //         url: 'http://www.timbakerdev.com/originalthaifood.github.io',
+  //       },
+  //     ],
+  //   },
   testimonials: {
     testimonials: [{}],
   },

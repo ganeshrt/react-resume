@@ -39,8 +39,50 @@ class Resume extends Component {
       });
     }
 
+    var projects = this.props.data.projects.map(function (project) {
+      return (
+        <div key={project.name}>
+          <h3>{project.name}</h3>
+          <p className="info">
+            {project.organization}
+            <span>&bull;</span> <em className="date">{project.duration}</em>
+          </p>
+          <p>
+            <label>Technology : {project.framework}</label>
+          </p>
+          <p>{project.description}</p>
+        </div>
+      );
+    });
+
     return (
       <section id="resume">
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>Work</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">{work}</div>
+        </div>
+
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>Projects</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">
+            <p>{}</p>
+
+            <div className="bars">
+              <ul className="skills">{projects}</ul>
+            </div>
+          </div>
+        </div>
+        <br />
         <div className="row education">
           <div className="three columns header-col">
             <h1>
@@ -53,16 +95,6 @@ class Resume extends Component {
               <div className="twelve columns">{education}</div>
             </div>
           </div>
-        </div>
-
-        <div className="row work">
-          <div className="three columns header-col">
-            <h1>
-              <span>Work</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">{work}</div>
         </div>
 
         <div className="row skill">
