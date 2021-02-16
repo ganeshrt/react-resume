@@ -62,7 +62,8 @@ export const resumeData = {
         company: 'Successive Technologies',
         title: 'Associate Software Engineer ',
         years: 'April 2019 - Present',
-        description: ' I am working as Full stack developer (MERN)',
+        description:
+          ' I am working as Full stack developer (MERN),Developed service APIs to connect applications with web services and Conducted unit testing to deliver optimal browser functionality, Designed Reusable and optimal React components and Sanitizing and validating Input',
       },
     ],
     skills: [
